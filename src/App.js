@@ -4,13 +4,12 @@ import Home from "./components/Home";
 import Projects from "./components/Projects";
 import "./styles/App.css";
 import { FaGithub } from "react-icons/fa";
-// import { SiGmail } from "react-icons/si";
 import { FaLinkedin } from "react-icons/fa";
 
 const isActive = ({ isActive }) => {
   return {
-    // color: isActive ? "rgba(255, 255, 0, 0.75)" : "",
-    background: isActive ? "rgb(255, 255, 0,0.5)" : "",
+    color: isActive ? "rgba(255, 255, 255)" : "",
+    background: isActive ? "rgba(0, 0, 255, 0.12)" : "",
   };
 };
 

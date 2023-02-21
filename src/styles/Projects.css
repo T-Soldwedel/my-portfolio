@@ -4,11 +4,6 @@
   align-items: center;
 }
 
-.all-projects-container h5 {
-  color: rgba(255, 255, 0, 0.75);
-  letter-spacing: 3px;
-}
-
 .single-project-container {
   min-width: 50%;
   padding-bottom: 0.5rem;
@@ -36,12 +31,12 @@
 .single-project-container:hover {
   text-align: center;
   background-color: rgba(255, 255, 255, 0.45);
-  font-weight: 600;
+  background-color:  rgba(0, 0, 255, 0.12);
   border-radius: 5px;
 }
-.single-project-container a:hover {
-  color: yellow;
-}
+/* .single-project-container a:hover {
+  color: rgba(255, 255, 0, 0.7);
+} */
 
 .single-project-container p {
   margin: 0;

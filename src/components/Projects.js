@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <div>
       <div className="all-projects-container">
-        {/* <h5>- Projects (Design & Development) -</h5> */}
+        
 
         <div className="single-project-container">
           <a
