@@ -1,0 +1,48 @@
+.all-projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.all-projects-container h5 {
+    color: rgba(255, 255, 0, 0.75);
+    letter-spacing: 3px;
+}
+
+.single-project-container {
+  min-width: 50%;
+  padding-bottom: 0.5rem;
+  letter-spacing: 5px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: color 1s;
+  -moz-transition: color 1s;
+  -ms-transition: color 1s;
+  -o-transition: color 1s;
+  transition: color 1s;
+  margin-bottom: 2rem;
+}
+
+.single-project-container h3 {
+  color: rgb(0, 0, 0);
+  margin: 0;
+}
+
+.single-project-container a {
+  text-decoration: none;
+  color: white;
+}
+
+.single-project-container:hover {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.45);
+  font-weight: 600;
+  border-radius:  5px;
+}
+.single-project-container a:hover {
+color: yellow;
+}
+
+.single-project-container p {
+  margin: 0;
+}

@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Labrada&display=swap");
+
+body {
+  font-family: "Labrada", serif;
+  margin: 0;
+  padding: 0;
+  padding: 0.5rem;
+  /* background: rgb(105, 41, 101);
+  background: rgb(11, 100, 67);
+  background: rgb(96, 100, 11);
+  background: rgb(96, 100, 11); */
+  background: rgb(11, 63, 100);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 243 243'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='franctalNoise' baseFrequency='1.7' %3E%3C/feTurbulence%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'%3E%3C/rect%3E%3Ch1%3Esadas%3C/h1%3E%3C/svg%3E");
+}
+
+.page-container {
+  font-size: clamp(1rem, 1.6vw, 1.4rem);
+  display: flex;
+  flex-direction: column;
+  color: white;
+  letter-spacing: 1px;
+  border: clamp(2px, 3vw, 3.5rem) solid rgba(255, 255, 255, 0.45);
+  border-radius: 5px;
+  min-height: 96vh;
+  border-bottom: none;
+}
+
+.name-container {
+  color: rgba(255, 255, 0, 0.85);
+  color: white;
+  letter-spacing: 3px;;
+  text-shadow: 3px 0px 7px rgba(0, 0, 0, 0.8), 
+  -3px 0px 7px rgba(0, 0, 0, 0.8), 
+  0px 4px 7px rgba(0, 0, 0, 0.8);
+  padding-bottom: 2rem;
+  background-color: rgba(255, 255, 255, 0.45);
+}
+
+header h1 {
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  margin: 0;
+  padding: 0.3rem 0 0 0.6rem;
+}
+
+header p {
+  font-size: clamp(1rem, 2vw, 1.8rem);
+  margin: 0;
+  padding: 0 0 0.3rem 0.6rem;
+  font-style: oblique;
+}
+
+.navigation {
+  background-color: rgba(255, 255, 255, 0.45);
+}
+
+.navigation ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid black;
+}
+
+.navigation li {
+  display: flex;
+  list-style: none;
+  padding: 0.3rem 0.5rem;
+}
+
+.navlink {
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+  padding: 0.2rem 0.3rem;
+}
+
+main {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.45);
+  padding-top: 5rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.45);
+  padding: clamp(2px, 2vw, 1rem);
+  border-top: 1px solid black;
+}
+
+footer a {
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: black;
+  cursor: pointer;
+}
+
+footer a:hover {
+  color: yellow;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 800px) {
+  body {
+    margin: 3rem 0;
+    padding: clamp(1rem, 2vw, 5rem) clamp(2px, 15vw, 30rem) 0;
+  }
+
+  .page-container {
+    min-height: fit-content;
+  }
+
+  main {
+    padding-top: 3rem;
+    padding-bottom: clamp(1rem, 2vw, 5rem);
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  body {
+    margin: 3rem 0;
+    padding: clamp(1rem, 4vw, 5rem) clamp(2px, 25vw, 30rem) 0;
+  }
+
+  .page-container {
+    min-height: fit-content;
+  }
+}
