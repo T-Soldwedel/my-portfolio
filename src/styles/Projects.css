@@ -5,8 +5,8 @@
 }
 
 .all-projects-container h5 {
-    color: rgba(255, 255, 0, 0.75);
-    letter-spacing: 3px;
+  color: rgba(255, 255, 0, 0.75);
+  letter-spacing: 3px;
 }
 
 .single-project-container {
@@ -37,10 +37,10 @@
   text-align: center;
   background-color: rgba(255, 255, 255, 0.45);
   font-weight: 600;
-  border-radius:  5px;
+  border-radius: 5px;
 }
 .single-project-container a:hover {
-color: yellow;
+  color: yellow;
 }
 
 .single-project-container p {

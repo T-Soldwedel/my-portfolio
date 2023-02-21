@@ -1,9 +1,10 @@
 .home-container {
-    padding: 0 1rem;
-    text-align:justify;
-
+  padding: 0 1rem;
+  text-align: justify;
+  color: black;
+  font-weight: 600;
 }
 
 .home-container h2 {
-    text-align: center;
+  text-align: center;
 }

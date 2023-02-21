@@ -4,13 +4,13 @@ import Home from "./components/Home";
 import Projects from "./components/Projects";
 import "./styles/App.css";
 import { FaGithub } from "react-icons/fa";
-import { SiGmail } from "react-icons/si";
+// import { SiGmail } from "react-icons/si";
 import { FaLinkedin } from "react-icons/fa";
 
 const isActive = ({ isActive }) => {
   return {
-    color: isActive ? "rgba(255, 255, 0, 0.75)" : "",
-    // backgroundColor: isActive ? "rgba(255, 255, 0, 0.75)" : ""
+    // color: isActive ? "rgba(255, 255, 0, 0.75)" : "",
+    background: isActive ? "rgb(255, 255, 0,0.5)" : "",
   };
 };
 
@@ -28,12 +28,12 @@ const App = () => {
             <ul>
               <li>
                 <NavLink className="navlink" to="/" style={isActive}>
-                  | About me |
+                  About me
                 </NavLink>
               </li>
               <li>
                 <NavLink className="navlink" to="/projects" style={isActive}>
-                  | Projects |
+                  Projects
                 </NavLink>
               </li>
             </ul>
@@ -49,13 +49,24 @@ const App = () => {
         </main>
 
         <footer>
-
           <span>
-            <a href="https://github.com/T-Soldwedel" target="_blank"><FaGithub /></a>
+            <a
+              href="https://github.com/T-Soldwedel"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGithub />
+            </a>
           </span>
 
           <span>
-            <a href="https://www.linkedin.com/in/thomas-soldwedel/" target="_blank"><FaLinkedin /></a>
+            <a
+              href="https://www.linkedin.com/in/thomas-soldwedel/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaLinkedin />
+            </a>
           </span>
         </footer>
       </div>
