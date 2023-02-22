@@ -1,12 +1,13 @@
 .all-projects-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
 }
 
 .single-project-container {
   min-width: 50%;
-  padding-bottom: 0.5rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
   letter-spacing: 5px;
   text-align: center;
   cursor: pointer;
@@ -15,11 +16,12 @@
   -ms-transition: color 1s;
   -o-transition: color 1s;
   transition: color 1s;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .single-project-container h3 {
-  color: rgb(0, 0, 0);
+  color: var(--second-font-color);
+  font-weight: 600;
   margin: 0;
 }
 
@@ -30,13 +32,10 @@
 
 .single-project-container:hover {
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.45);
-  background-color:  rgba(0, 0, 255, 0.12);
-  border-radius: 5px;
+  background-color: var(--project-hover-color);
+  border-radius: 10px;
+  cursor: auto;
 }
-/* .single-project-container a:hover {
-  color: rgba(255, 255, 0, 0.7);
-} */
 
 .single-project-container p {
   margin: 0;
