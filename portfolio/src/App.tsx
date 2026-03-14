@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import HeroSection from './components/HeroSection';
 import ExperienceTimeline from './components/ExperienceTimeline';
+import ProjectsSection from './components/ProjectsSection';
 import SkillsBentoBox from './components/SkillsBentoBox';
 import AboutHumanElement from './components/AboutHumanElement';
 
@@ -25,6 +26,7 @@ function App() {
     <div className="app-container">
       <HeroSection />
       <ExperienceTimeline />
+      <ProjectsSection />
       <SkillsBentoBox />
       <AboutHumanElement />
 
