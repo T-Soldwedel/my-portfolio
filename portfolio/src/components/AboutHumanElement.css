@@ -1,0 +1,110 @@
+.about-section {
+  padding: 8rem 2rem;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  padding: 4rem;
+  border-radius: 24px;
+  overflow: hidden;
+  position: relative;
+}
+
+.about-visuals {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-height: 300px;
+}
+
+.pulse-circle {
+  width: 120px;
+  height: 120px;
+  background: var(--card-bg);
+  border: 1px solid var(--accent-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 0 30px var(--accent-glow);
+  animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(79, 70, 229, 0.4); }
+  70% { transform: scale(1.05); box-shadow: 0 0 0 20px rgba(79, 70, 229, 0); }
+  100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(79, 70, 229, 0); }
+}
+
+.abstract-shape {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background: radial-gradient(circle, var(--accent-glow) 0%, transparent 70%);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.about-content {
+  flex: 1.5;
+}
+
+.badge-row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--card-border);
+  border-radius: 20px;
+  font-size: 0.9rem;
+  color: var(--text-primary);
+}
+
+.bio-text p {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.7;
+}
+
+.bio-text .highlight-text {
+  color: var(--text-primary);
+  font-weight: 500;
+  border-left: 3px solid var(--accent-color);
+  padding-left: 1.5rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 900px) {
+  .about-container {
+    flex-direction: column;
+    padding: 2.5rem;
+    gap: 2.5rem;
+  }
+  
+  .about-visuals {
+    min-height: 200px;
+  }
+  
+  .about-content .section-title {
+    text-align: center !important;
+  }
+  
+  .badge-row {
+    justify-content: center;
+  }
+}
