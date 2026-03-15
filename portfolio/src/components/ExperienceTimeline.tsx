@@ -21,7 +21,7 @@ const timelineData = [
   },
   {
     id: 3,
-    role: 'Studies in Public Health & Movement Therapy',
+    role: 'Studies in Public Health & Sports Science',
     company: 'Academia',
     date: 'Previous Background',
     description: 'Developed profound analytical rigor and empathy, understanding complex human systems to translate into human-centric software.',

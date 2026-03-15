@@ -25,12 +25,12 @@ export default function AboutHumanElement() {
           </h2>
           <div className="badge-row">
             <span className="badge"><Activity size={14} /> Public Health Studies</span>
-            <span className="badge"><HeartPulse size={14} /> Movement Therapy</span>
+            <span className="badge"><HeartPulse size={14} /> Sports Science & Movement Therapy</span>
           </div>
 
           <div className="bio-text">
             <p>
-              My journey into tech isn't conventional. With studies in Public Health and a deep background in movement therapy, I spent years understanding how complex human systems function, adapt, and heal. Today, I apply that same analytical rigor and empathy to building software.
+              My journey into tech isn't conventional. With studies in Public Health and a deep background in Sports Science & Movement Therapy, I spent years understanding how complex human systems function, adapt, and heal. Today, I apply that same analytical rigor and empathy to building software.
             </p>
             <p>
               Through intensive technical training at DCI and ChapterNext, and proven experience as a Technical Consultant at FDM Group, I’ve honed my expertise in the MERN stack—structuring clean, scalable code and thriving in Agile environments.

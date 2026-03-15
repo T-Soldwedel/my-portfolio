@@ -22,14 +22,6 @@
   margin-bottom: 2rem;
 }
 
-.code-tag {
-  font-family: monospace;
-  color: var(--accent-light);
-  background: rgba(79, 70, 229, 0.1);
-  padding: 0.2rem 0.8rem;
-  border-radius: 4px;
-  font-size: 0.9rem;
-}
 
 .greeting p {
   color: var(--text-secondary);

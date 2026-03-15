@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { MousePointer2, Code2, Database, Layout } from 'lucide-react';
+import { MousePointer2, Database, Layout } from 'lucide-react';
 import './HeroSection.css';
 
 export default function HeroSection() {
@@ -17,7 +17,6 @@ export default function HeroSection() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2 }}
         >
-          <span className="code-tag">&lt;hello_world /&gt;</span>
           <p>I am Thomas Soldwedel</p>
         </motion.div>
 
@@ -41,11 +40,11 @@ export default function HeroSection() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8 }}
         >
-          <a href="#about" className="cta-button primary">
-            Discover my journey <MousePointer2 size={18} />
+          <a href="#projects" className="cta-button primary">
+            View my projects <Layout size={18} />
           </a>
-          <a href="#skills" className="cta-button secondary">
-            Explore tech stack <Code2 size={18} />
+          <a href="#about" className="cta-button secondary">
+            Discover my journey <MousePointer2 size={18} />
           </a>
         </motion.div>
       </motion.div>
